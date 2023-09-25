@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-const header = ref('Mi carrito de compras')
+const header = ref('Mi carritoo de compras')
 </script>
 
 <template>
