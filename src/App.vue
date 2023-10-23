@@ -28,6 +28,7 @@ const doEdit =(edit) => {
     <button v-if="!editing" @click="doEdit(true)" class="btn btn-primary">Agregar Articulo</button>
     <button v-else @click="doEdit(false)" class="btn">Cancelar</button>
   </div>
+  <!-- <a :href="newItem">👁️</a> -->
  <form v-if="editing" v-on:submit.prevent = "saveItem" class="add-item form">
 <!-- input de nuevo articulo -->
   <input  v-model.trim="newItem" type="text" placeholder="Ingresar nuevo articulo">
